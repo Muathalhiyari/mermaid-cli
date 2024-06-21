@@ -1,0 +1,33 @@
+graph TD
+    A[Amplifier] --> B1[Set 1: 1.6 ohms]
+    A --> B2[Set 2: 1.6 ohms]
+    A --> B3[Set 3: 1.6 ohms]
+    A --> B4[Set 4: 1.6 ohms]
+    subgraph Set1
+        B1 --> S1_1[Speaker 1]
+        B1 --> S1_2[Speaker 2]
+        B1 --> S1_3[Speaker 3]
+        B1 --> S1_4[Speaker 4]
+        B1 --> S1_5[Speaker 5]
+    end
+    subgraph Set2
+        B2 --> S2_1[Speaker 6]
+        B2 --> S2_2[Speaker 7]
+        B2 --> S2_3[Speaker 8]
+        B2 --> S2_4[Speaker 9]
+        B2 --> S2_5[Speaker 10]
+    end
+    subgraph Set3
+        B3 --> S3_1[Speaker 11]
+        B3 --> S3_2[Speaker 12]
+        B3 --> S3_3[Speaker 13]
+        B3 --> S3_4[Speaker 14]
+        B3 --> S3_5[Speaker 15]
+    end
+    subgraph Set4
+        B4 --> S4_1[Speaker 16]
+        B4 --> S4_2[Speaker 17]
+        B4 --> S4_3[Speaker 18]
+        B4 --> S4_4[Speaker 19]
+        B4 --> S4_5[Speaker 20]
+    end
